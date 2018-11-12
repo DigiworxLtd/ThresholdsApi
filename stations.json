@@ -1,0 +1,29 @@
+{
+    "RloiID" : "6191",
+    "WiskiId" : "L33621",
+    "TelemetryId" : "E21732",
+    "Name" : "River Dove at Mayfield",
+    
+    "Thresholds" : [
+
+        {
+            "ThresholdType" : "RES FAL" ,
+            "Level" : "1.00" ,
+            "FloodWarningArea" : "011FWFNC6A"
+        }, 
+
+        {
+            "ThresholdType" : "RES FW" ,
+            "Level" : "3.00" ,
+            "FloodWarningArea" : "011FWFNC6A"
+        }, 
+
+        {
+            "ThresholdType" : "RES FW" ,
+            "Level" : "4.00" ,
+            "FloodWarningArea" : "065WAC420"
+        } 
+
+    
+    ]
+}
