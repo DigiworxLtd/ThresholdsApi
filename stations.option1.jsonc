@@ -1,0 +1,41 @@
+{
+    "RloiID" : "6191",
+    "WiskiId" : "L33621",
+    "TelemetryId" : "E21732",
+    "Name" : "River Dove at Mayfield",
+
+    "TimeSeries": [
+        {
+            "Parameter": "Level",
+            "ParameterQualifier": "Stage",
+            // Any further per-timeseries metadata can be included here,
+            // looking at the real time flood api (which calls these measures rather than timeseries)
+            // this could include unit, period valueType etc.
+            // see https://environment.data.gov.uk/flood-monitoring/doc/reference#measures
+            //and for example https://environment.data.gov.uk/flood-monitoring/id/stations/1491TH/measures
+            "Thresholds": [
+                {
+                    "ThresholdType" : "RES FAL" ,
+                    "Level" : "1.00" ,
+                    "FloodWarningArea" : "011FWFNC6A"
+                },
+                {
+                    "ThresholdType" : "RES FW" ,
+                    "Level" : "4.00" ,
+                    "FloodWarningArea" : "065WAC420"
+                } 
+            ]
+        },
+        {
+            "Parameter": "Level",
+            "ParameterQualifier": "DownstreamStage",
+            "Thresholds": [
+                {
+                    "ThresholdType" : "RES FW" ,
+                    "Level" : "3.00" ,
+                    "FloodWarningArea" : "011FWFNC6A"
+                }
+            ]
+        }
+    ]
+}
